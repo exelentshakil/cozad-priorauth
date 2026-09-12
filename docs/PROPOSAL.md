@@ -4,7 +4,7 @@
 **Client:** Cozad Medical Ops  
 **Lead:** Shakil Ahmed (BarakahSoft LLC)  
 **Standard Rate:** $150/hr  
-**Pilot Milestone:** $250 Fixed (48–72h)  
+**Pilot Milestone:** $250 Fixed (48-72h)  
 **Turnkey Implementation:** $5,850 Fixed (39h, 2 weeks)  
 **Attached File:** `docs/ESTIMATE.pdf`
 
@@ -38,9 +38,9 @@ A lean, 100% client-owned SaaS stack to avoid custom software bloat and zero fre
 - **AI Extraction:** OpenAI Enterprise API ($15-$35/mo) with executed BAA and zero data retention (`store: false`) to parse clinical notes into strict Zod JSON schemas without manual staff prompting.
 - **Deterministic Rules Engine:** Vercel Edge API ($20/mo) executing deterministic code to validate extracted clinical parameters against payer LCD/NCD rules (ensuring AI never makes coverage decisions).
 - **Workspace Board:** Airtable Team ($40/mo for 2 seats) for visual triage across READY, VERIFY, and EXCEPTION with 1-click verification triggers.
-Total monthly software overhead: ~$110–$190/mo, billed directly to Cozad Medical Ops.
+Total monthly software overhead: ~$110-$190/mo, billed directly to Cozad Medical Ops.
 
-### Question 2: Can you demonstrate a working end-to-end flow using synthetic data within 48–72 hours?
+### Question 2: Can you demonstrate a working end-to-end flow using synthetic data within 48-72 hours?
 **Answer:**
 Yes. The working end-to-end flow is already built and deployed right now at https://cozad-priorauth.vercel.app. It features 3 pre-engineered synthetic patient scenarios:
 1. **READY:** Robert Martinez (CPT 29881 Knee Meniscectomy) meeting 100% of UHC criteria, generating an electronic EDI 278 payload.
